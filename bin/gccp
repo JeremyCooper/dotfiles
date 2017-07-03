@@ -1,0 +1,2 @@
+echo compiling C++ using -ansi -Wc+11-extensions -pedantic-errors -Wall
+g++ -ansi -Wc++11-extensions -pedantic-errors -Wall $1 $2 $3
