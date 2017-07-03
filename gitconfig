@@ -1,0 +1,5 @@
+[user]
+	email = jeremydezmond@gmail.com
+	name = Jeremy
+[credential]
+	helper = cache --timeout=3600

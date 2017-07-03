@@ -1,0 +1,8 @@
+#! /usr/bin/env bash
+
+#if [ "$(tty | grep pts)" == "$(tty)" ]; then
+if [ -n "$SSH_CLIENT" ] || [ -n "$SSH_TTY" ]; then
+	echo $1
+else
+	echo $2
+fi
