@@ -31,9 +31,15 @@
         create: true
 
 - shell:
-    - git clone --depth=1 https://github.com/rust-lang/rust.vim.git ~/.dotfiles/vim/bundle/rust.vim
+    - git clone --depth=1 https://github.com/rust-lang/rust.vim.git
+      ~/.dotfiles/vim/bundle/rust.vim
     - git clone --depth=1 https://github.com/shougo/neocomplete.vim
+      ~/.dotfiles/vim/bundle/neocomplete.vim
     - git clone --depth=1 https://github.com/chiel92/vim-autoformat
+      ~/.dotfiles/vim/bundle/vim-autoformat
     - git clone --depth=1 https://github.com/altercation/vim-colors-solarized
+      ~/.dotfiles/vim/bundle/vim-colors-solarized
     - git clone --depth=1 https://github.com/racer-rust/vim-racer
+      ~/.dotfiles/vim/bundle/vim-racer
     - git clone --depth=1 https://github.com/tpope/vim-sensible
+      ~/.dotfiles/vim/bundle/vim-sensible
