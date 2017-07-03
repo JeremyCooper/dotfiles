@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/daemoz/rust/the_book/guessing_game/src'
+let g:netrw_dirhist_2='/home/daemoz/.vim/bundle/vim-autoformat'
+let g:netrw_dirhist_3='/home/daemoz/rust/the_book/greprs/src'
+let g:netrw_dirhist_4='/home/daemoz/rust/memo/src/bin'
+let g:netrw_dirhist_5='/home/daemoz/builds/.dotfiles/src'
+let g:netrw_dirhist_6='/home/daemoz/builds/.dotfiles/.git'

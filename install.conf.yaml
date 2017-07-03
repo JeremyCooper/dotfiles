@@ -7,18 +7,25 @@
     ~/.gitconfig: gitconfig
     ~/.tmux.conf: tmux.conf
     ~/.vimrc: vimrc
+    ~/.vim: vim
+    ~/.emacs: emacs
     ~/.zshrc: zshrc
+    ~/.bash-git-prompt: bash-git-prompt
     ~/bin:
         path: bin/
         create: true
     ~/.Xmodmap: Xmodmap
     ~/.Xresources: Xresources
     ~/.xinitrc: xinitrc
+    ~/.config/fish:
+        path: config/fish/
+        create: true
     ~/.config/openbox:
         path: config/openbox/
         create: true
     ~/.config/tint2:
         path: config/tint2/
         create: true
-
-
+    ~/.config/polybar:
+        path: config/polybar/
+        create: true
