@@ -6,12 +6,12 @@
 # Background 1: Panel
 rounded = 0
 border_width = 0
-background_color = #32312E 100
-border_color = #000000 100
-background_color_hover = #000000 100
-border_color_hover = #000000 100
-background_color_pressed = #000000 100
-border_color_pressed = #000000 100
+background_color = #32312E
+border_color = #000000
+background_color_hover = #000000
+border_color_hover = #000000
+background_color_pressed = #000000
+border_color_pressed = #000000
 
 # Background 2: Default task, Iconified task
 rounded = 0
@@ -20,38 +20,38 @@ background_color = #B36B65
 border_color = #000000
 background_color_hover = #B36B65
 border_color_hover = #5EC7D4
-background_color_pressed = #555555 100
-border_color_pressed = #eaeaea 44
+background_color_pressed = #555555
+border_color_pressed = #eaeaea
 
 # Background 3: Active task
 rounded = 0
 border_width = 1
-background_color = #32312E 100
+background_color = #32312E
 border_color = #000000
-background_color_hover = #aaaaaa 100
+background_color_hover = #aaaaaa
 border_color_hover = #5EC7D4
-background_color_pressed = #555555 100
-border_color_pressed = #eaeaea 100
+background_color_pressed = #555555
+border_color_pressed = #eaeaea
 
 # Background 4: Urgent task
 rounded = 0
 border_width = 1
-background_color = #aa4400 100
+background_color = #aa4400
 border_color = #000000
-background_color_hover = #cc7700 100
-border_color_hover = #aa7733 100
-background_color_pressed = #555555 100
-border_color_pressed = #aa7733 100
+background_color_hover = #cc7700
+border_color_hover = #aa7733
+background_color_pressed = #555555
+border_color_pressed = #aa7733
 
 # Background 5: Tooltip
 rounded = 1
 border_width = 1
-background_color = #ffffaa 100
-border_color = #000000 100
-background_color_hover = #ffffaa 100
-border_color_hover = #000000 100
-background_color_pressed = #ffffaa 100
-border_color_pressed = #000000 100
+background_color = #ffffaa
+border_color = #000000
+background_color_hover = #ffffaa
+border_color_hover = #000000
+background_color_pressed = #ffffaa
+border_color_pressed = #000000
 
 #-------------------------------------
 # Panel
@@ -72,7 +72,7 @@ autohide_hide_timeout = 0.5
 autohide_height = 2
 strut_policy = follow_size
 panel_window_name = tint2
-disable_transparency = 1
+disable_transparency = 0
 mouse_effects = 1
 font_shadow = 0
 mouse_hover_icon_asb = 100 0 10
@@ -113,7 +113,7 @@ task_active_background_id = 2
 task_urgent_background_id = 3
 mouse_left = toggle_iconify
 mouse_middle = none
-mouse_right = close
+mouse_right = toggle
 mouse_scroll_up = toggle
 mouse_scroll_down = iconify
 

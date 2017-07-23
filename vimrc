@@ -11,7 +11,8 @@ let g:racer_experimental_completer = 1
 set nocompatible
 syntax on
 filetype plugin indent on
-set tabstop=4 softtabstop=4 shiftwidth=4 noexpandtab
+"set tabstop=4 softtabstop=4 shiftwidth=4 noexpandtab
+set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
 set re=1
 colorscheme solarized
 set background=dark

@@ -178,12 +178,71 @@
   </dock>
   <keyboard>
     <chainQuitKey>C-g</chainQuitKey>
-    <!-- Keybindings for desktop switching -->
-    <keybind key="C-r">
+	<!-- my keybinds -->
+	<keybind key="C-Return">
+		<action name="ToggleMaximize"/>
+	</keybind>
+	<keybind key="C-Q">
+		<action name="Close"/>
+	</keybind>
+	<keybind key = "C-H">
+		<action name="Iconify"/>
+	</keybind>
+	<keybind key = "C-S-space">
+		<action name = "Execute">
+			<command>xterm</command>
+		</action>
+	</keybind>
+	<keybind key = "C-1">
+		<action name = "GoToDesktop"><to>1</to></action>
+	</keybind>
+	<keybind key = "C-2">
+		<action name = "GoToDesktop"><to>2</to></action>
+	</keybind>
+	<keybind key = "C-3">
+		<action name = "GoToDesktop"><to>3</to></action>
+	</keybind>
+	<keybind key = "C-4">
+		<follow>yes</follow>
+		<action name = "GoToDesktop"><to>4</to></action>
+	</keybind>
+	<keybind key = "S-C-1">
+		<follow>yes</follow>
+		<action name = "SendToDesktop"><to>1</to></action>
+	</keybind>
+	<keybind key = "S-C-2">
+		<follow>yes</follow>
+		<action name = "SendToDesktop"><to>2</to></action>
+	</keybind>
+	<keybind key = "S-C-3">
+		<follow>yes</follow>
+		<action name = "SendToDesktop"><to>3</to></action>
+	</keybind>
+	<keybind key = "S-C-4">
+		<follow>yes</follow>
+		<action name = "SendToDesktop"><to>4</to></action>
+	</keybind>
+    <keybind key="C-S-r">
       <action name="Execute">
         <command>rofi -show DRun</command>
       </action>
     </keybind>
+	<keybind key="C-Escape">
+		<action name="Execute">
+			<command>xdotool mousemove 1920 1080</command>
+		</action>
+	</keybind>
+	<keybind key="C-Tab">
+      <action name="NextWindow">
+		<interactive>yes</interactive>
+        <finalactions>
+          <action name="Focus"/>
+          <action name="Raise"/>
+          <action name="Unshade"/>
+        </finalactions>
+      </action>
+    </keybind>
+    <!-- Keybindings for desktop switching -->
     <keybind key="C-A-n">
       <action name="GoToDesktop">
         <to>left</to>
@@ -270,15 +329,6 @@
       </action>
     </keybind>
     <!-- Keybindings for window switching -->
-    <keybind key="A-Tab">
-      <action name="NextWindow">
-        <finalactions>
-          <action name="Focus"/>
-          <action name="Raise"/>
-          <action name="Unshade"/>
-        </finalactions>
-      </action>
-    </keybind>
     <keybind key="A-S-Tab">
       <action name="PreviousWindow">
         <finalactions>
