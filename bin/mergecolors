@@ -1,0 +1,6 @@
+#! /usr/bin/env bash
+
+newscheme="#include \"\/home\/daemoz\/.config\/colorschemes\/mbadolato\/xrdb\/$1.xrdb\""
+path="/home/daemoz/.config/colorschemes/merge.txt"
+sed -i "1s/.*/$newscheme/" $path
+xrdb -merge $path

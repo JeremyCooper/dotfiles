@@ -1,8 +1,9 @@
-"set re=0
 set ttyfast
 "set lazyredraw
 set swapfile
-set dir=~/.tmp
+set backupdir=/home/daemoz/.vim/backup//
+set directory=/home/daemoz/.vim/swap//
+set backupdir=/home/daemoz/.vim/undo//
 execute pathogen#infect()
 set hidden
 let g:neocomplete#enable_at_startup = 1
@@ -13,8 +14,10 @@ syntax on
 filetype plugin indent on
 "set tabstop=4 softtabstop=4 shiftwidth=4 noexpandtab
 set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
-set re=1
+set re=0
+"t_Co=256
 colorscheme solarized
+colors zenburn
 set background=dark
 set number
 

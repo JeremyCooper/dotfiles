@@ -1,3 +1,6 @@
+function listcolors
+    ls ~/.config/colorschemes/mbadolato/xrdb
+end
 function take
     mkdir -p $argv
     cd $argv
