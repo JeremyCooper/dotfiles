@@ -39,11 +39,11 @@ set GIT_PROMPT_STASHED "⚑ "
 set GIT_PROMPT_CLEAN "$BGreen✔"
 
 function fish_prompt
-	set SSH (sshp "$Red●$ResetColor" "")
 
     # Various variables you might want for your PS1 prompt instead
-    set Time (date +%R)
+    set Time (date +%I:%M)
     set PathShort (pwd|sed "s=$HOME=~=")
+    set SSH (sshp "$Red●$ResetColor" "")
 
     set PROMPT_START "$Yellow$PathShort$ResetColor"
     set PROMPT_END " \n$WHITE$Time$ResetColor $SSH\$ "

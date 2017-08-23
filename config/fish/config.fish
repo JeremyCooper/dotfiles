@@ -1,3 +1,6 @@
+function :w
+    echo "You're not in vim you dumbass"
+end
 function listcolors
     ls ~/.config/colorschemes/mbadolato/xrdb
 end

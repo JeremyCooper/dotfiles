@@ -1,5 +1,5 @@
 !!*faceName: Inconsolata:size=13:antialias=true
-*faceName: Meslo:size=11:antialias=true
+*faceName: Meslo:size=9:antialias=true
 *selectToClipboard:true
 !!URxvt.font: xft:Inconsolata, \
 !!            9x15
