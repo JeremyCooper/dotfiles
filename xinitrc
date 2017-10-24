@@ -36,7 +36,7 @@ xset r rate 200 100
 xset m 0 0
 xset s off -dpms
 xrandr --output DP1 --mode 1920x1080 --rate 144.00
-bgchd -dir ~/Pictures/Wallpapers/abstract/ ~/Pictures/Wallpapers/cities ~/Pictures/Wallpapers/etc/ ~/Pictures/Wallpapers/girls/ ~/Pictures/Wallpapers/media/ ~/Pictures/Wallpapers/peaceful/ ~/Pictures/Wallpapers/space/ ~/Pictures/Wallpapers/bnw/ ~/Pictures/Wallpapers/digital/ ~/Pictures/Wallpapers/funny/ ~/Pictures/Wallpapers/lewd/ ~/Pictures/Wallpapers/nature/ ~/Pictures/Wallpapers/quotes/ -intv 15m -bcknd feh -rpl
+bgchd -dir ~/Pictures/Wallpapers/final/ -int 15m -bcknd feh -rpl
 numlockx
 
 exec openbox-session

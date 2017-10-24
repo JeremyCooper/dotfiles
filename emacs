@@ -1,11 +1,26 @@
 (require 'package)
-(add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/"))
-(add-to-list 'package-archives '("melpa-stable" . "http://stable.melpa.org/packages/"))
-(add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/"))
+;(add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/") t)
+;(add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/") t)
+(add-to-list 'package-archives '("melpa-stable" . "http://stable.melpa.org/packages/") t)
 (package-initialize)
+
+(when (not package-archive-contents)
+  (package-refresh-contents))
+
+;;;Evil mode
 (require 'evil)
 (evil-mode 1)
-(setq inferior-lisp-program "/usr/bin/sbcl")
+
+;;;Clojure
+(defvar cloj-packages '(better-defaults
+                        projectile
+                        clojure-mode
+                        cider))
+(dolist (p cloj-packages)
+  (unless (package-installed-p p)
+    (package-install p)))
+
+;(setq inferior-lisp-program "/usr/bin/sbcl")
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

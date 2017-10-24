@@ -16,7 +16,7 @@ filetype plugin indent on
 set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
 set re=0
 "t_Co=256
-colorscheme solarized
+"colorscheme solarized
 colors zenburn
 set background=dark
 set number
