@@ -8,18 +8,18 @@
 ;=====================================================
 
 [colors]
-background = ${xrdb:XTerm.vt100.color0}
-foreground = ${xrdb:XTerm.vt100.color7}
+background = #444
+foreground = #000000
 background-alt = #444
 foreground-alt = #555
 primary = ${xrdb:XTerm.vt100.color1}
 secondary = ${xrdb:XTerm.vt100.color2}
 alert = ${xrdb:XTerm.vt100.color3}
 [bar/daemoz]
-wm-restack = bspwm
+wm-restack = i3
 width = 20%
 offset-x = 80%
-height = 30
+height = 32
 radius = 0
 background = ${colors.background}
 foreground = ${colors.foreground}
@@ -78,8 +78,8 @@ modules-right = xbacklight volume xkeyboard memory cpu battery temperature date 
 
 tray-position = right
 tray-padding = 2
-;tray-transparent = true
-;tray-background = #0063ff
+tray-transparent = true
+tray-background = #000000
 
 ;wm-restack = bspwm
 ;wm-restack = i3
